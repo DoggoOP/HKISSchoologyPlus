@@ -4,12 +4,12 @@
     "short_name": "Schoology+",
     "description": "Schoology Plus enhances your Schoology experience with numerous interface improvements",
     "homepage_url": "https://schoologypl.us?utm_source=ext-homepage-link",
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "schoology.plus@aopell.me",
-            "update_url": "https://schoologypl.us/firefox_updates.json"
-        }
-    },
+    // "browser_specific_settings": {
+    //     "gecko": {
+    //         "id": "schoology.plus@aopell.me",
+    //         "update_url": "https://schoologypl.us/firefox_updates.json"
+    //     }
+    // },
     "version": "7.7.3",
     "icons": {
         "128": "imgs/icon@128.png",
@@ -29,7 +29,7 @@
         "default_title": "Schoology Plus"
     },
     "permissions": [
-        "*://lms.lausd.net/*",
+        "*://schoology.hkis.edu.hk/*",
         "*://*.schoology.com/*",
         "storage",
         "alarms",
@@ -61,7 +61,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://lms.lausd.net/*",
+                "*://schoology.hkis.edu.hk/*",
                 "https://*.schoology.com/*"
             ],
             "exclude_matches": [
@@ -97,7 +97,7 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/*",
+                "*://schoology.hkis.edu.hk/*",
                 "https://*.schoology.com/*"
             ],
             "exclude_matches": [
@@ -132,8 +132,8 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/grades/grades*",
-                "https://lms.lausd.net/course/*/student_grades",
+                "*://schoology.hkis.edu.hk/grades/grades",
+                "*://schoology.hkis.edu.hk/course/*/student_grades",
                 "https://*.schoology.com/grades/grades*",
                 "https://*.schoology.com/course/*/student_grades"
             ],
@@ -164,7 +164,7 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/course/*/materials*",
+                "*://schoology.hkis.edu.hk/course/*/materials*",
                 "https://*.schoology.com/course/*/materials*"
             ],
             "exclude_matches": [
@@ -197,11 +197,11 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/",
-                "https://lms.lausd.net/home",
-                "https://lms.lausd.net/home#*",
-                "https://lms.lausd.net/home/recent-activity*",
-                "https://lms.lausd.net/home/course-dashboard*",
+                "*://schoology.hkis.edu.hk/",
+                "*://schoology.hkis.edu.hk/home",
+                "*://schoology.hkis.edu.hk/home#*",
+                "*://schoology.hkis.edu.hk/home/recent-activity*",
+                "*://schoology.hkis.edu.hk/home/course-dashboard",
                 "https://*.schoology.com/",
                 "https://*.schoology.com/home",
                 "https://*.schoology.com/home#*",
@@ -232,7 +232,7 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/course/*",
+                "*://schoology.hkis.edu.hk/course/*",
                 "https://*.schoology.com/course/*"
             ],
             "js": [
@@ -242,8 +242,8 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/api",
-                "https://lms.lausd.net/api/*",
+                "*://schoology.hkis.edu.hk/api",
+                "*://schoology.hkis.edu.hk/api/*",
                 "https://*.schoology.com/api",
                 "https://*.schoology.com/api/*"
             ],
@@ -254,7 +254,7 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/user/*",
+                "*://schoology.hkis.edu.hk/user/*",
                 "https://*.schoology.com/user/*"
             ],
             "exclude_matches": [
@@ -283,7 +283,7 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/assignment/*/assessment",
+                "*://schoology.hkis.edu.hk/assignment/*/assessment",
                 "https://*.schoology.com/assignment/*/assessment"
             ],
             "exclude_matches": [
@@ -309,7 +309,7 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/page/*",
+                "*://schoology.hkis.edu.hk/page/*",
                 "https://*.schoology.com/page/*"
             ],
             "exclude_matches": [
@@ -335,8 +335,8 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/courses*",
-                "https://lms.lausd.net/courses/*",
+                "*://schoology.hkis.edu.hk/courses",
+                "*://schoology.hkis.edu.hk/courses/*",
                 "https://*.schoology.com/courses*",
                 "https://*.schoology.com/courses/*"
             ],
@@ -364,7 +364,7 @@
         },
         {
             "matches": [
-                "https://lms.lausd.net/*",
+                "*://schoology.hkis.edu.hk/*",
                 "https://*.schoology.com/*"
             ],
             "exclude_matches": [
