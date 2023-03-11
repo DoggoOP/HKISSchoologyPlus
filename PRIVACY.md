@@ -10,7 +10,6 @@ It is Schoology Plus's policy to respect your privacy regarding any information 
 
 Like most website operators, Schoology Plus collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each user request. Schoology Plus's purpose in collecting non-personally identifying information is to better understand how Schoology Plus's users use the website and extension. From time to time, Schoology Plus may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of the website and/or the extension.
 
-Schoology Plus uses Google Analytics to collect information for these purposes. If you would like to opt-out of tracking on our website, you can install the [Google Analytics Opt-out Add-on](https://chrome.google.com/webstore/detail/google-analytics-opt-out/fllaojicojecljbmefodhfapmkghcbnh?hl=en) or another tracking-prevention extension. If you would like to opt-out of tracking in our extension, you can change the "Anonymous Usage Statistics" setting to "Disabled" in Schoology Plus settings.
 
 ## Personally Identifying Information
 
