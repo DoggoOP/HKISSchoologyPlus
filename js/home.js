@@ -23,9 +23,7 @@ function postFromBroadcast(broadcast) {
                     createElement("div", ["picture"], {}, [
                         createElement("a", ["sExtlink-processed"], { href: "", title: "Schoology Plus Broadcast" }, [
                             createElement("div", ["profile-picture-wrapper"], {}, [
-                                createElement("div", ["profile-picture"], {}, [
-                                    createElement("img", ["imagecache", "imagecache-profile_sm"], { src: chrome.runtime.getURL("imgs/icon@128.png"), alt: "Schoology Plus Logo" })
-                                ])
+                                createElement("div", ["profile-picture"], {})
                             ])
                         ])
                     ])
