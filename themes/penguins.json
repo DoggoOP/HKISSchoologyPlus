@@ -1,0 +1,24 @@
+{
+    "name": "Penguins",
+    "version": 2,
+    "color": {
+        "custom": {
+            "primary": "#3e3d42",
+            "hover": "#fa971e",
+            "background": "#3e3d42",
+            "border": "#fa971e"
+        }
+    },
+    "logo": {
+        "preset": "schoology_logo"
+    },
+    "cursor": {
+        "primary": "https://imgur.com/5QVrDqX.png"
+    },
+    "icons": [
+        {
+            "regex": ".",
+            "url": "https://cdn-icons-png.flaticon.com/512/692/692439.png"
+        }
+    ]
+}
