@@ -270,6 +270,12 @@ class Theme {
             setCSSVariable(`cal${i + 1}`, m.calendar[i]);
         }
 
+        if (m.dark) {
+            setCSSVariable("icon-color", "white");
+        } else {
+            setCSSVariable("icon-color", "black");
+        }
+
         // Text Colors
         setCSSVariable("text", m.text.primary);
         setCSSVariable("muted-text", m.text.muted);

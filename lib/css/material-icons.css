@@ -21,3 +21,8 @@
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+
+.icon-class {
+  fill: var(--icon-color); /* For SVG icons */
+  color: var(--icon-color); /* For text or font icons */
+}
