@@ -46,13 +46,7 @@ function postFromBroadcast(broadcast) {
                                     legacyAction: "close",
                                     legacyLabel: "Broadcast"
                                 })
-                            }),
-                            createElement("span", ["update-body", "s-rte"], {}, [
-                                createElement("p", ["no-margins"], {}, [
-                                    createElement("strong", ["splus-broadcast-title"], { innerHTML: broadcast.title })
-                                ]),
-                                createElement("p", ["small-top-margin"], { innerHTML: broadcast.message })
-                            ])
+                            })
                         ])
                     ]),
                     createElement("span", ["edge-main"], {}, [
