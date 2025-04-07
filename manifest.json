@@ -41,11 +41,13 @@
     "optional_permissions": [
         "<all_urls>"
     ],
-    "web_accessible_resources": [
-        "imgs/*",
+    "web_accessible_resources": [{
+        "resources": ["imgs/*",
         "lib/js/pdf.worker.js",
         "theme-editor.html",
-        "default-icons.html"
+        "default-icons.html"],
+        "matches": ["<all_urls>"]
+    }
     ],
     "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
